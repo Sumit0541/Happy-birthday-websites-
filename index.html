@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+  <meta name="theme-color" content="#fff0f5"><meta name="description" content="A tiny magical birthday world made with love for Yana.">
+  <title>Yana's Little Birthday Universe ✨</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="ambient" aria-hidden="true"><span>✦</span><span>♡</span><span>✧</span><span>✦</span><span>♡</span><span>✧</span></div>
+  <canvas id="confetti" aria-hidden="true"></canvas>
+  <nav class="topbar"><a class="brand" href="#top" aria-label="Back to top">♡ Yana's universe</a><div class="nav-actions"><button id="musicBtn" class="pill" type="button" aria-pressed="false">♫ Sound off</button><a class="pill pill-light" href="#memories">Our memories ↓</a><a class="pill pill-light story-nav" href="#our-story">Our story ✨</a></div></nav>
+
+  <main id="top">
+    <section class="hero section-wrap">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="sparkle">✦</span> A little world made just for you <span class="sparkle">✦</span></p>
+        <h1>Happy Birthday,<br><span class="name-gradient">Yana!</span> <span class="wave">🎀</span></h1>
+        <p class="hero-sub">To our tiny sunshine, giggle machine and forever favourite little star. Today, the whole universe is celebrating <em>you</em>.</p>
+        <div class="hero-buttons"><a class="btn btn-primary" href="#surprise">Open your surprise <span>♡</span></a><button class="btn btn-secondary" id="sprinkleBtn" type="button">Make it sparkle ✨</button></div>
+        <div class="countdown-card"><span class="countdown-icon">🎂</span><div><strong id="countdownTitle">Birthday magic is coming!</strong><p id="countdownText">Counting down to 4 November</p></div><div id="countdownNumbers" class="countdown-numbers" aria-live="polite">✨</div></div>
+      </div>
+      <div class="hero-art" aria-label="Illustration of a cute cat and birthday cake">
+        <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div><span class="float-star star-a">✦</span><span class="float-star star-b">✧</span><span class="float-heart">♡</span>
+        <div class="cat-stage"><div class="cat-shadow"></div><div class="cat">
+          <div class="ear ear-left"></div><div class="ear ear-right"></div><div class="cat-head"><div class="eye eye-left"></div><div class="eye eye-right"></div><div class="blush blush-left"></div><div class="blush blush-right"></div><div class="nose"></div><div class="mouth"></div><div class="whisker whisker-left"></div><div class="whisker whisker-right"></div></div><div class="cat-body"></div><div class="cat-paw paw-left"></div><div class="cat-paw paw-right"></div><div class="cat-tail"></div><div class="cat-bow">✿</div>
+        </div><div class="cake"><div class="candle"><span class="flame"></span></div><div class="cake-top"></div><div class="cake-middle"><i>♥</i><i>♥</i><i>♥</i></div><div class="cake-bottom"></div><div class="plate"></div></div></div>
+        <div class="art-label">made with lots of love ♡</div>
+        <figure class="hero-photo-card"><img src="img/yana-09.jpg" alt="Yana, the birthday star"><figcaption>Our forever little star ♡</figcaption><span class="hero-photo-heart">♡</span></figure>
+      </div>
+      <a class="scroll-cue" href="#letter">scroll for your magic <span>↓</span></a>
+    </section>
+
+    <section id="letter" class="section-wrap letter-section reveal">
+      <div class="section-heading"><p class="eyebrow">A note from the heart</p><h2>A little letter <span>💌</span></h2><p>For the girl who makes ordinary days feel special.</p></div>
+      <article class="letter-card"><div class="letter-stamp">FOR<br>YANA ♡</div><p class="letter-hi">My dearest Yana,</p><p>Happy Birthday to our precious little sunshine! 🌷</p><p>May your days be full of silly giggles, warm hugs, tiny adventures, favourite treats and dreams bigger than the sky. Never forget how loved you are—not just today, but on every ordinary Tuesday and every little day in between.</p><p>May you always find a reason to laugh, someone to hold your hand, and a little bit of magic wherever you go. Keep being your wonderfully unique self, little star. The world is brighter with you in it.</p>
+<p class="blessing-message">Meri bachchi, tu mere liye bahut anmol hai. Teri khushi mere liye kisi bhi gift se badhkar hai. Bhagwan kare teri zindagi hamesha sehat, sukoon, pyaar aur kamyabi se bhari rahe. Tere har sapne ko pankh milein, har mushkil mein tujhe himmat mile, aur jab bhi tujhe lage ki tu akeli hai, tujhe yaad rahe ki tera bhaiya hamesha tere saath khada hai. Main shayad har baat perfect tareeke se na keh paun, par tu meri zindagi ki sabse pyaari blessings mein se ek hai. I love you, meri chhoti si jaan. 💗</p><p class="letter-sign">Lots and lots of love,<br><strong>Your Sumit bhaiya ♡</strong></p><div class="letter-doodle">♡ ✧ ♡</div></article>
+    </section>
+
+    <section id="memories" class="section-wrap memories-section reveal">
+      <div class="section-heading"><p class="eyebrow">Little moments, giant love</p><h2>Yana's memory wall <span>📸</span></h2><p>Add her photos below to turn this into your own family scrapbook.</p></div>
+      <div id="photoGrid" class="photo-grid">
+        <article class="photo-card bhaiya-card"><div class="photo-frame"><img src="img/bhaiya.jpg" alt="Yana's bhaiya, always cheering for her" loading="lazy"></div><h3>Your Bhaiya, always ♡</h3><p>My little star will always have me cheering for her.</p></article>
+        <article class="photo-card"><div class="photo-frame"><img src="img/yana-01.jpg" alt="Yana smiling in her blue top and glasses" loading="lazy"></div><h3>My little sunshine ☀️</h3><p>Your smile makes ordinary days special.</p></article>
+        <article class="photo-card"><div class="photo-frame"><img src="img/yana-02.jpg" alt="Yana in a blue top and glasses" loading="lazy"></div><h3>My favourite girl 💗</h3><p>You are loved more than words can explain.</p></article>
+        <article class="photo-card"><div class="photo-frame"><img src="img/yana-03.jpg" alt="Yana smiling for a photo" loading="lazy"></div><h3>Little superstar ✨</h3><p>Keep shining in your own beautiful way.</p></article>
+        <article class="photo-card"><div class="photo-frame"><img src="img/yana-04.jpg" alt="A happy memory with Yana" loading="lazy"></div><h3>A memory to keep 🌷</h3><p>Some moments become forever favourites.</p></article>
+        <article class="photo-card"><div class="photo-frame"><img src="img/yana-05.jpg" alt="Yana in pink traditional clothes" loading="lazy"></div><h3>Pretty little moments 🎀</h3><p>May life always bring you reasons to smile.</p></article>
+        <article class="photo-card"><div class="photo-frame"><img src="img/yana-06.jpg" alt="Yana enjoying a sunny day" loading="lazy"></div><h3>Sunshine & smiles 🌸</h3><p>Never forget how special you are to us.</p></article>
+        <article class="photo-card"><div class="photo-frame"><img src="img/yana-07.jpg" alt="Yana in a white outfit" loading="lazy"></div><h3>Our precious one 🤍</h3><p>You make our family brighter just by being you.</p></article>
+        <article class="photo-card"><div class="photo-frame"><img src="img/yana-08.jpg" alt="Yana with her long hair" loading="lazy"></div><h3>Forever our star 🌟</h3><p>Big dreams, happy days, and endless blessings.</p></article>
+      </div>
+      <p class="privacy-note">💗 These photos are part of your birthday scrapbook and stay inside this website folder.</p>
+    </section>
+
+    <section id="our-story" class="section-wrap story-section reveal">
+      <div class="section-heading"><p class="eyebrow">Open a little memory folder</p><h2>Our little storybook <span>📚💗</span></h2><p>Six tiny folders full of things I never want you to forget.</p></div>
+      <div class="story-intro"><span class="story-bubble">💌</span><p>Yana, this corner is for <strong>our story</strong> — the first hello, the funniest memories, the things I adore about you, and a big thank-you for being part of my life. Tap any folder to open it.</p></div>
+      <div class="story-folders" role="list">
+        <button class="story-folder active" type="button" data-story="first" role="listitem"><span class="folder-icon">🌷</span><span class="folder-label">How we first met</span><small>Our first page</small></button>
+        <button class="story-folder" type="button" data-story="best" role="listitem"><span class="folder-icon">📸</span><span class="folder-label">Best memories</span><small>Little moments forever</small></button>
+        <button class="story-folder" type="button" data-story="thanks" role="listitem"><span class="folder-icon">🫶</span><span class="folder-label">Thank you for being you</span><small>A little thank-you</small></button>
+        <button class="story-folder" type="button" data-story="qualities" role="listitem"><span class="folder-icon">✨</span><span class="folder-label">Things I love about you</span><small>Your lovely qualities</small></button>
+        <button class="story-folder" type="button" data-story="flaws" role="listitem"><span class="folder-icon">🙈</span><span class="folder-label">Your cute little flaws</span><small>Only with love 😂</small></button>
+        <button class="story-folder" type="button" data-story="promise" role="listitem"><span class="folder-icon">🎀</span><span class="folder-label">A promise for you</span><small>Always your bhaiya</small></button>
+      </div>
+      <article class="story-page" id="storyPage" aria-live="polite"><div class="story-page-top"><span id="storyPageIcon">🌷</span><span class="story-page-kicker">PAGE 01 · OUR BEGINNING</span><span class="story-page-sparkle">✦</span></div><h3 id="storyPageTitle">How we first met</h3><p id="storyPageText">Every lovely story has a first page. I want to remember the day we first met, the first things we said, and how a simple beginning became a precious part of our family story.</p><div class="story-page-note" id="storyPageNote">✍️ Add your real first-meeting memory here to make this page truly yours.</div><div class="story-page-doodles" aria-hidden="true">♡　✧　♡</div></article>
+      <p class="story-edit-tip">💡 Personal touch: open <code>script.js</code> and edit the story text to add your real memories, names, funny incidents and Yana's special qualities.</p>
+    </section>
+
+    <section class="section-wrap meme-section reveal"><div class="section-heading"><p class="eyebrow">Official family statistics</p><h2>Yana being Yana 😂</h2><p>Highly scientific. Absolutely no exaggeration.</p></div><div class="meme-grid"><article class="meme-card meme-yellow"><span class="meme-emoji">😇</span><p>“I did nothing!”</p><strong>Evidence: 47 toys on the floor.</strong></article><article class="meme-card meme-pink"><span class="meme-emoji">🍪</span><p>One tiny snack?</p><strong>Negotiations begin immediately.</strong></article><article class="meme-card meme-blue"><span class="meme-emoji">🐱</span><p>When someone says “no”</p><strong>Deploy the legendary puppy eyes.</strong></article><article class="meme-card meme-lilac"><span class="meme-emoji">👑</span><p>House rules</p><strong>Yana is the CEO. We just work here.</strong></article></div></section>
+
+    <section id="surprise" class="section-wrap surprise-section reveal"><div class="section-heading"><p class="eyebrow">One last little bit of magic</p><h2>A gift, just for you <span>🎁</span></h2><p>Tap the gift, then make a wish and blow out the candles.</p></div><button id="giftBtn" class="gift-button" type="button" aria-label="Open your birthday gift"><span class="gift-glow"></span><span class="gift-box">🎁</span><span class="gift-caption">Tap to open!</span></button><div id="giftMessage" class="gift-message" hidden><div class="gift-open-emoji">💖✨💖</div><h3>Surprise, Yana!</h3><p>You are loved more than all the stars in the sky, all the sprinkles on a cake, and all the cats in the whole wide world.</p><p class="big-wish">Keep shining, little birthday queen! 👑</p></div>
+      <div class="cake-interaction"><div class="mini-cake" aria-label="Birthday cake with three candles"><div class="mini-flames"><button class="mini-flame lit" aria-label="Blow out candle 1" type="button">🔥</button><button class="mini-flame lit" aria-label="Blow out candle 2" type="button">🔥</button><button class="mini-flame lit" aria-label="Blow out candle 3" type="button">🔥</button></div><div class="mini-icing"></div><div class="mini-layer"></div><div class="mini-layer bottom"></div><div class="mini-plate"></div></div><p id="wishText">Close your eyes, make a wish, then tap each flame. 🌠</p><button id="wishBtn" class="btn btn-primary" type="button">Make a wish ✨</button></div>
+    </section>
+
+    <section class="finale"><div class="finale-stars">✦　♡　✧　♡　✦</div><p class="eyebrow">A message that will always be true</p><h2>You're someone's<br><span>whole little universe.</span></h2><p>Happy Birthday, Yana. May your life be as sweet as cake and as magical as stardust. 💗</p><div class="finale-sign">With love, Sumit bhaiya <span>♡</span></div><button id="finalConfetti" class="btn btn-light" type="button">Celebrate again! 🎉</button></section>
+  </main>
+  <footer>Built with 💗, a little code, and a whole lot of love for Yana.</footer>
+  <audio id="birthdayMusic" loop preload="none"></audio>
+  <script src="script.js"></script>
+</body></html>
